@@ -108,8 +108,8 @@ p{
   }
 }
 
-@media (max-width: 200px){
+@media (min-width: 400px){
   #container{
-    width: 100px;
+    width:350px;
   }
 }
