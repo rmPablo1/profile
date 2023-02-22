@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body{
+  background-color: aliceblue;
+  color: #22333B;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.img-circle{
+  width: 80px;
+  border-radius: 50%;
+}
+
+h1{
+  line-height: 50px;
+}
+h2{
+  color: #A9927D;
+}
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+ul li{
+  font-size: 30px;
+  text-align: center;
+  color: #5E503F;
+  display: inline-block;
+  padding: 10px;
+}
+
+ul li a{
+  font-size: 30px;
+  text-align: center;
+  color: #5E503F;
+  display: inline-block;
+}
+
+ul li:hover{
+  color:black;
+}
+
+
+a {
+  text-decoration: none;
+  color: #0A0908;
+  font-weight: bolder;
+}
+a:hover{
+  color:lightskyblue;
+}
+
+p{
+  color: #22333B;
+  font-weight: 300;
+  font-size:20px;
+}
+
+#container{
+  width:50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card{
+  padding: 30px;
+  margin-top:40px;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px rgba(0,0,0,0.1);
+  position: relative;
+  left:0px;
+  transition: left 0.3s ease;
+}
+
+.card:hover{
+  background-color: #eee;
+  box-shadow: 3px 3px 1px rgba(0,0,0,0.2);
+  left: -10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 200px){
+  .container{
+    width: 100px;
+  }
+}
